@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		04BF58082619DAD1007F02F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF58072619DAD1007F02F5 /* AppDelegate.swift */; };
 		04BF580A2619DAD1007F02F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF58092619DAD1007F02F5 /* SceneDelegate.swift */; };
-		04BF580C2619DAD1007F02F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF580B2619DAD1007F02F5 /* ViewController.swift */; };
 		04BF580F2619DAD1007F02F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF580D2619DAD1007F02F5 /* Main.storyboard */; };
 		04BF58112619DAD5007F02F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BF58102619DAD5007F02F5 /* Assets.xcassets */; };
 		04BF58142619DAD5007F02F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF58122619DAD5007F02F5 /* LaunchScreen.storyboard */; };
+		04BF581E2619DB0A007F02F5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF581D2619DB0A007F02F5 /* TableViewController.swift */; };
+		04BF58212619DE16007F02F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF58202619DE16007F02F5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04BF58042619DAD1007F02F5 /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BF58072619DAD1007F02F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BF58092619DAD1007F02F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04BF580B2619DAD1007F02F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04BF580E2619DAD1007F02F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BF58102619DAD5007F02F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BF58132619DAD5007F02F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BF58152619DAD5007F02F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF581D2619DB0A007F02F5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		04BF58202619DE16007F02F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				04BF58072619DAD1007F02F5 /* AppDelegate.swift */,
 				04BF58092619DAD1007F02F5 /* SceneDelegate.swift */,
-				04BF580B2619DAD1007F02F5 /* ViewController.swift */,
 				04BF580D2619DAD1007F02F5 /* Main.storyboard */,
+				04BF58202619DE16007F02F5 /* DetailViewController.swift */,
+				04BF581D2619DB0A007F02F5 /* TableViewController.swift */,
 				04BF58102619DAD5007F02F5 /* Assets.xcassets */,
 				04BF58122619DAD5007F02F5 /* LaunchScreen.storyboard */,
 				04BF58152619DAD5007F02F5 /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BF580C2619DAD1007F02F5 /* ViewController.swift in Sources */,
 				04BF58082619DAD1007F02F5 /* AppDelegate.swift in Sources */,
+				04BF581E2619DB0A007F02F5 /* TableViewController.swift in Sources */,
 				04BF580A2619DAD1007F02F5 /* SceneDelegate.swift in Sources */,
+				04BF58212619DE16007F02F5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
